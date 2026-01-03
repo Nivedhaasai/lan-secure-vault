@@ -25,13 +25,6 @@ python app.py
 
 3. Open in browser - it shows both localhost and your LAN IP so others can access it
 
-## The team
-
-Built for CS Networks Lab, 5th Sem
-
-## Screenshots
-
-The UI has a dark theme with our college branding. Login page has the SSN logo.
 
 ## Tech used
 
