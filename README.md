@@ -1,4 +1,4 @@
-# LAN Secure File Vault
+LAN Secure File Vault
 
 A LAN-only secure file sharing and data vault system built using Flask.  
 This project simulates an internal private cloud where users inside the same Local Area Network (LAN) can securely upload, send, and download files without any internet or third-party cloud dependency.
@@ -76,7 +76,8 @@ lan-secure-vault/
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Clone the repository
-```bash
+bash
+
 git clone https://github.com/oviya-1228/lan-secure-vault.git
 cd lan-secure-vault
 2️⃣ Install dependencies
@@ -96,7 +97,7 @@ Example:
 
 http://192.168.1.15:5000
 
------ Demo Flow
+✅Demo Flow
 
 Register a new user
 
@@ -106,29 +107,29 @@ Upload a file and select a recipient
 
 Receiver logs in and sees:
 
-File name
+   File name
 
-Sender name
+   Sender name
 
-Timestamp
+   Timestamp
 
 Receiver downloads the file
 
------Audit Logging
+✅Audit Logging
 
 Every file transfer is logged with:
 
-Filename
+   Filename
 
-Sender
+   Sender
 
-Receiver
+   Receiver
 
-Date and time
+   Date and time
 
 This ensures traceability and accountability within the LAN.
 
------ Security Notes (Demo Scope)
+✅Security Notes (Demo Scope)
 
 Files never leave the local network
 
@@ -138,7 +139,7 @@ Sensitive data excluded from GitHub using .gitignore
 
 Password hashing and encryption can be added as future enhancements
 
------ Applications
+✅Applications
 
 Banks – Internal document sharing
 
@@ -148,7 +149,7 @@ Legal firms – Case files and evidence
 
 Educational institutions – Internal file exchange
 
------ Future Enhancements
+✅Future Enhancements
 
 Role-based access control (Admin / Auditor)
 
@@ -162,29 +163,12 @@ Online user status
 
 File expiry and auto-deletion
 
- Author
+✅Author
 
 Oviya
 GitHub: https://github.com/oviya-1228
 
-License
-
-This project is for academic and demonstration purposes.
 
 
----
-
-##  What to do next
-
-1. In your repo folder, create a file named:
 
 
-README.md
-
-2. Paste the above content
-3. Save it
-4. Run:
-```bash
-git add README.md
-git commit -m "Add README documentation"
-git push
